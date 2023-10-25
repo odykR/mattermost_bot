@@ -8,12 +8,12 @@ import (
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 	"go.uber.org/zap"
 
-	"tgtrello/internal/assets"
-	"tgtrello/internal/model"
-	rdb "tgtrello/internal/redis"
-	"tgtrello/internal/repository"
-	"tgtrello/internal/service/callback"
-	"tgtrello/internal/service/message"
+	"tgbot/internal/assets"
+	"tgbot/internal/model"
+	rdb "tgbot/internal/redis"
+	"tgbot/internal/repository"
+	"tgbot/internal/service/callback"
+	"tgbot/internal/service/message"
 )
 
 const (

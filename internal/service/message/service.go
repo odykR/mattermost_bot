@@ -10,12 +10,12 @@ import (
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 	"go.uber.org/zap"
 
-	"tgtrello/config"
-	"tgtrello/internal/model"
-	"tgtrello/internal/pkg/crypto"
-	"tgtrello/internal/pkg/utils"
-	rdb "tgtrello/internal/redis"
-	"tgtrello/internal/repository"
+	"tgbot/config"
+	"tgbot/internal/model"
+	"tgbot/internal/pkg/crypto"
+	"tgbot/internal/pkg/utils"
+	rdb "tgbot/internal/redis"
+	"tgbot/internal/repository"
 )
 
 type Service struct {

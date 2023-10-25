@@ -4,11 +4,11 @@ import (
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 	"go.uber.org/zap"
 
-	"tgtrello/config"
-	"tgtrello/internal/assets"
-	"tgtrello/internal/handler"
-	"tgtrello/internal/redis"
-	"tgtrello/internal/repository"
+	"tgbot/config"
+	"tgbot/internal/assets"
+	"tgbot/internal/handler"
+	"tgbot/internal/redis"
+	"tgbot/internal/repository"
 )
 
 func main() {

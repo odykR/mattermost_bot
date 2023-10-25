@@ -7,9 +7,9 @@ import (
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 	"go.uber.org/zap"
 
-	"tgtrello/internal/model"
-	"tgtrello/internal/pkg/utils"
-	"tgtrello/internal/repository"
+	"tgbot/internal/model"
+	"tgbot/internal/pkg/utils"
+	"tgbot/internal/repository"
 )
 
 type Service struct {

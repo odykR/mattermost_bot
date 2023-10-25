@@ -1,5 +1,5 @@
-CREATE SCHEMA trello;
-CREATE TABLE trello.user
+CREATE SCHEMA bot;
+CREATE TABLE bot.user
 (
     id            bigint PRIMARY KEY,
     login         text,
@@ -9,23 +9,23 @@ CREATE TABLE trello.user
     register_time timestamp
 );
 
-CREATE TABLE trello.task
+CREATE TABLE bot.task
 (
     id          SERIAL,
-    user_id     bigint references trello.user (id),
+    user_id     bigint references bot.user (id),
     complexity  int,
     deadline    timestamp,
     description text
 );
 
-CREATE TABLE trello.team
+CREATE TABLE bot.team
 (
     id   SERIAL PRIMARY KEY,
     name text
 );
 
-CREATE TABLE trello.user_team
+CREATE TABLE bot.user_team
 (
-    team_id int references trello.team (id),
-    user_id bigint references trello.user (id)
+    team_id int references bot.team (id),
+    user_id bigint references bot.user (id)
 );

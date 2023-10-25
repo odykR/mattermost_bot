@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"tgtrello/internal/model"
-	"tgtrello/internal/service/message"
+	"tgbot/internal/model"
+	"tgbot/internal/service/message"
 )
 
 type MessageHandlers struct {

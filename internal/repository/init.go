@@ -8,7 +8,7 @@ import (
 
 	_ "github.com/lib/pq"
 
-	"tgtrello/config"
+	"tgbot/config"
 )
 
 func NewDB(logger *zap.Logger, cfg *config.Config) *sql.DB {

@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"tgtrello/internal/model"
-	"tgtrello/internal/service/callback"
+	"tgbot/internal/model"
+	"tgbot/internal/service/callback"
 )
 
 type CallBackHandlers struct {
